@@ -5,7 +5,7 @@
 	echo $Year.'-'.$Month.'</Title>';
 	include '../Menu.htm';
 	echo 'For '.$Year.' in '.$Month.'<br>';
-	echo '<table width=80% align=center><td>Month<td>Average<td>High<td>Low<tr>';
+	echo '<table width=80% align=center><td>Date<td>Average<td>High<td>Low<tr>';
 	$GroupBy='Date';
 	$Condition='Year(Time)="'.$Year.'" and MonthName(Time)="'.$Month.'"';
 	$url='Date.php?d=';
