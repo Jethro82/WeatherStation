@@ -1,1 +1,0 @@
-Directory structures don't really work for me on git hub- so this is where we are.
