@@ -6,7 +6,7 @@
 	echo 'For '.$Year.'<br>';
 	echo '<table width=80%><td>Month Name<td>Average<td>High<td>Low<tr>';
 	$GroupBy='MonthName';
-	$Condition='ReadingType="A" or ReadingType="R"';
+	$Condition='Year(Time)='.$Year;
 	$url='Month.php?y='.$Year.'&m=';
 	include '../ResultMerge.php';
 ?>
