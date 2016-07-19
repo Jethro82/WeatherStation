@@ -1,0 +1,11 @@
+ <?php
+            $hostname = "127.0.0.1";
+            $username = "WeatherStationFE";
+            $dbname = "WeatherStation";
+
+            $password = "WSFE1";       
+            mysql_connect($hostname, $username, $password);
+            mysql_select_db($dbname);
+?>
+
+        
