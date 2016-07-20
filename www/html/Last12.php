@@ -1,4 +1,4 @@
-<Title>JPF Weather Station - Last Week</Title>
+<Title>JPF Weather Station - Last 12 Months</Title>
 <?php
 	include '../Menu.htm';
 	echo 'Last 12 Months<br>';
